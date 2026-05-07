@@ -1,0 +1,6 @@
+D:\keroles\Bank Management System\Bank Project\BankSystem_Data\bin\Debug\BankSystem_Data.dll
+D:\keroles\Bank Management System\Bank Project\BankSystem_Data\bin\Debug\BankSystem_Data.pdb
+D:\keroles\Bank Management System\Bank Project\BankSystem_Data\obj\Debug\BankSystem_Data.csproj.AssemblyReference.cache
+D:\keroles\Bank Management System\Bank Project\BankSystem_Data\obj\Debug\BankSystem_Data.csproj.CoreCompileInputs.cache
+D:\keroles\Bank Management System\Bank Project\BankSystem_Data\obj\Debug\BankSystem_Data.dll
+D:\keroles\Bank Management System\Bank Project\BankSystem_Data\obj\Debug\BankSystem_Data.pdb
