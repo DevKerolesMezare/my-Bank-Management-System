@@ -1,61 +1,57 @@
-# BankSystem_UI
+# Banking Management System
 
-A professional desktop banking management system built using C#, SQL Server, WinForms, Stored Procedures, and ADO.NET with a clean 3-Tier Architecture (Presentation Layer, Business Layer, Data Access Layer).
+A professional desktop banking management system built using C#, WinForms, SQL Server, ADO.NET, and Stored Procedures following a clean 3-Tier Architecture.
 
-## Repository Description
+## Overview
 
 This project simulates a real-world banking system that manages customers, accounts, transactions, users, and secure login operations.
 
-The system is developed using SQL Server Stored Procedures with ADO.NET for database connectivity and data handling, following professional software architecture principles.
+The system was developed using SQL Server Stored Procedures and ADO.NET for database interaction while applying software engineering and layered architecture principles.
 
-It is designed to demonstrate advanced development concepts using:
+## Features
 
-* Object-Oriented Programming (OOP)
-* ADO.NET
-* SQL Server Stored Procedures
-* Windows Forms (WinForms)
-* Layered Architecture Design
-* 3-Tier Architecture
+- Customer Management
+- Person Management
+- User Management
+- Account Creation
+- Deposit & Withdraw Operations
+- Money Transfer Between Accounts
+- Transaction Management
+- Account Types Management
+- Secure Login System
+- Exception Logging System
+- Country Management
 
-## Main Features
+## Architecture
 
-* Customer Management
-* Person Management
-* User Management
-* Account Creation
-* Deposit and Withdraw Operations
-* Money Transfer Between Accounts
-* Transaction Management
-* Account Types Management
-* Login System with Password Security
-* Exception Logging System
-* Country Management
+The project follows a clean 3-Tier Architecture:
+
+- Presentation Layer
+- Business Layer
+- Data Access Layer
 
 ## Project Structure
 
-### 1. BankSystem_UI
+### BankSystem_UI
+Handles all Windows Forms UI screens and user interactions.
 
-Handles all user interface screens and forms using Windows Forms (WinForms).
+### BankSystem_Business
+Contains business rules, validation, and application workflows.
 
-### 2. BankSystem_Business
-
-Contains business logic, validation rules, and workflow management.
-
-### 3. BankSystem_Data
-
-Responsible for SQL Server database operations using Stored Procedures and ADO.NET for data access.
+### BankSystem_Data
+Handles SQL Server operations using ADO.NET and Stored Procedures.
 
 ## Technologies Used
 
-* C#
-* .NET Framework
-* WinForms
-* SQL Server
-* Stored Procedures
-* ADO.NET
-* OOP
-* 3-Tier Architecture
+- C#
+- .NET Framework
+- WinForms
+- SQL Server
+- Stored Procedures
+- ADO.NET
+- OOP
+- 3-Tier Architecture
 
 ## Goal of the Project
 
-This project was built for practicing enterprise-level desktop application development and applying real banking system concepts using SQL Server Stored Procedures, ADO.NET, and professional architecture standards.
+This project was built to practice enterprise-level desktop application development and implement real banking system concepts using SQL Server, ADO.NET, and layered architecture principles.
