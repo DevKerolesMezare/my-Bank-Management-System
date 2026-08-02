@@ -1,14 +1,6 @@
 ﻿using BankSystem_Business;
 using BankSystem_UI.Global_Classes;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Security.Principal;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BankSystem_UI.Transactions
@@ -145,7 +137,7 @@ namespace BankSystem_UI.Transactions
                     pnlisSuccess.Visible = true;
 
                     // refresh
-                    _Account = clsAccount.Find(txtAccountNumber.Text);
+                    _Account = clsAccount.Find(lblAccountNumber.Text);
                     lblNewBalance.Text = _Account.AccountBalance.ToString();
 
                     lblNewTransactionID.Text = _transaction.TransactionID.ToString();
