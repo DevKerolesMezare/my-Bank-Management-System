@@ -1,0 +1,66 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build folders
+[Bb]in/
+[Oo]bj/
+
+# Test Results
+TestResults/
+
+# NuGet
+*.nupkg
+packages/
+!packages/build/
+!packages/repositories.config
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Publish
+publish/
+Publish/
+
+# Generated files
+Generated Files/
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Local database files
+*.mdf
+*.ldf
+
+# SQLite (إذا كانت قاعدة البيانات محلية ولا تريد رفعها)
+*.db
+*.db-shm
+*.db-wal
+
+# Backup files
+*.bak
+*.backup
+
+# Cache
+.cache/
+
+# JetBrains
+*.sln.iml
